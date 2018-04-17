@@ -2,6 +2,12 @@ html,body{
   background:linear-gradient(navy,blue,aqua);; 
   color:white;
   font-family:Comic Sans MS;
+  animation:example 10s linear 2s infinite normal;
+}
+@keyframes example{
+    0% {opacity:0;}
+    50%{opacity:0.5;}
+    100%{opacity:1;}
 }
 @media(min-width:768px){
   h1{
@@ -36,11 +42,4 @@ html,body{
     font-size:90px;
   }
 }
-#testimonials{
-    animation:example 10s linear 2s infinite normal;
-}
-@keyframes example{
-    0% {opacity:1;}
-    50%{opacity:0;}
-    100%{opacity:1;}
-}
+
