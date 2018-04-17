@@ -5,12 +5,20 @@ html,body{
   font-family: 'Gaegu', cursive;
   font-size: 20px
 }
+h1.jumbotron{
+  font-size:70px;
+}
 @keyframes example{
     0% {opacity:0;}
     50%{opacity:0.5;}
     100%{opacity:1;}
 }
-
+.jumbotron{
+  background:navy;
+}
+#strong{
+  font-size:20px;
+}
 @media(min-width:768px){
   h1{
    font-size:80px; 
@@ -43,4 +51,7 @@ html,body{
   p{
     font-size:90px;
   }
+}
+#navabr{
+  
 }
