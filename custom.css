@@ -1,8 +1,9 @@
 html,body{
-  background:linear-gradient(navy,blue,aqua);; 
+  background:linear-gradient(navy,blue,aqua);
   color:white;
-  font-family:Comic Sans MS;
-  animation:example 10s linear 2s infinite normal;
+  animation:example 10s linear 2s 1 normal;
+  font-family: 'Gaegu', cursive;
+  font-size: 20px
 }
 @keyframes example{
     0% {opacity:0;}
@@ -42,4 +43,3 @@ html,body{
     font-size:90px;
   }
 }
-
